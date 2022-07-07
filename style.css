@@ -37,7 +37,7 @@ body{
     border: none;
     background: tomato;
     padding: 10px 30px 10px 30px;
-    border-radius: 10px;
+    border-radius: 3px;
     margin-top: 60px;
 }
 .parent2{
@@ -60,11 +60,14 @@ body{
 .card{
     height: 150px;
     width: 150px;
-    background-color: coral;
+    background-color: gainsboro;
     margin-right: 20px;
     align-items: center;
     justify-content: center;
     display: flex;
+}
+#card3{
+    background-color: coral;
 }
 .parent2 input{
     margin-left: 38% ;
@@ -82,7 +85,7 @@ body{
    color: white;
    background-color: tomato;
    border: none;
-   border-radius: 10px;
+   border-radius: 3px;
 }
 .parent3 h1{
     text-align: center;
@@ -121,4 +124,32 @@ section{
     padding: 15px;
     margin-right: 25px;
 }
+.section2{
+    display: flex;
     
+}
+.section2-div1{
+    width: 50%;
+    padding-right: 5%;
+     
+ 
+} 
+.section2-div1 h1{
+    font-size: 50px;
+    
+}
+.section2-div1 img{
+    width: 80%;
+    height: 100%;
+    border-radius: 5px;
+    padding-left: 10%;
+    padding-top: 30px;
+}
+.section2-div1 button{
+   
+    padding: 10px 20px 10px 20px;
+   color: white;
+   background-color: tomato;
+   border: none;
+   border-radius: 3px;
+}
